@@ -1,0 +1,15 @@
+{
+  "name": "testowanie_produktu_z_koszyk",
+  "version": "1.0.0",
+  "description": "my first testing project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PiotrM",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "selenium-webdriver": "^4.7.0"
+  }
+}
