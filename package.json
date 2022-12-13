@@ -4,12 +4,13 @@
   "description": "my first testing project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --no-timeouts --paralell --reporter mochawesome --require mochawesome/register --reporter-options reportDir=C:/Users/matty/Desktop/testowanie_produktu_z_koszyk/testreports,reportFilename=wynikiTestu"
   },
   "author": "PiotrM",
   "license": "ISC",
   "dependencies": {
     "chai": "^4.3.7",
+    "mochawesome": "^7.1.3",
     "selenium-webdriver": "^4.7.0"
   }
 }
